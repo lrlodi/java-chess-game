@@ -3,6 +3,7 @@ package application;
 import chess.ChessPiece;
 
 public class UI {
+    private static String BOARDGAME = "  a b c d e f g h";
     public static void printBoard(ChessPiece[][] pieces) {
         for (int i = 0; i < pieces.length; i++) {
             System.out.print((8 - i) + " ");
@@ -11,7 +12,7 @@ public class UI {
             }
             System.out.println();
         }
-        System.out.print("  a b c d e f g h");
+        System.out.print(BOARDGAME);
     }
 
     private static void printPiece(ChessPiece piece) {
