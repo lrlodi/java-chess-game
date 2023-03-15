@@ -1,4 +1,4 @@
-package boardgame;
+package chess.pieces;
 
 public class Pawn {
 }
